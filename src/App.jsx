@@ -1,10 +1,11 @@
 import GlobalStyles from './components/GlobalStyles';
+import InputFiled from './components/InputFiled';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      <p>메인페이지입니다.</p>
+      <InputFiled />
     </>
   );
 }
